@@ -1365,9 +1365,9 @@ header.main-header .header-sticky.active .navbar{
 
 .service-content{
 	position: absolute;
-	bottom: 40px;
-	left: 40px;
-	right: 40px;
+	bottom: 20px;
+	left: 20px;
+	right: 20px;
 	z-index: 1;
 }
 
@@ -1854,6 +1854,11 @@ header.main-header .header-sticky.active .navbar{
 	font-size: 20px;
 	color: var(--primary-color);
 	margin: 0;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+	overflow: hidden;
+	text-align: justify;
 }
 
 .testimonial-body{
